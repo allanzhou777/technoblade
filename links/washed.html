@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta author='Allan Zhou'>
+	<title>Allan Zhou</title>
+	<meta name="viewport" content="initial-scale=1" /> 
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+	<style type="text/css">
+            
+    body {
+        margin: 0;
+        padding: 0;
+        }
+
+    .wrap {
+        width: 640px;
+        height: 480px;
+        overflow: hidden;
+    }
+
+    iframe {
+        width: 100vw;
+        height: 1000vh;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        margin-top: 0px;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+
+
+ 	</style>
+</head>
+
+    <body>
+        <iframe frameborder = 0 id="iframe" src="https://www.washingtonpost.com/" >
+        </iframe>
+
+        <script type="text/javascript">
+
+        function getRandomNumber(min, max) {
+            return Math.random() * (max - min) + min;
+        }
+        </script>
+    </body>
+</html>
